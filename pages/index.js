@@ -20,9 +20,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.message}>
-        <p>
-        Hello my name is Phil. I am currently in my second year @ SFU pursuing a degree in computer science.
-        </p>
+          <p>Hello my name is Phil. I am currently in my second year @ SFU pursuing a degree in computer science.</p>
         </div>
       </main>
 

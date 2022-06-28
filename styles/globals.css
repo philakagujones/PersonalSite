@@ -18,6 +18,7 @@ a {
 * {
   box-sizing: border-box;
   font-family: 'a769regular';
+  font-size: 20px;
 }
 
 @font-face {
