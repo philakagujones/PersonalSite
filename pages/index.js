@@ -12,6 +12,7 @@ export default function Home() {
         <meta charSet="utf-8"/>
         <title>Phil Akagu-Jones</title>
         <meta name="description" content="Phil Akagu-Jones is a software engineer who specializes in building and designing phenomenal digital applications" />
+        <meta name="theme-color" content="currentColor" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

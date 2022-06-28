@@ -13,8 +13,10 @@ function Toggle() {
     }, []);
     if(!mounted) return null;
     const currentTheme = theme === 'system' ? systemTheme : theme;
-
+    var meta = document.querySelector("meta[name=theme-color]");
     if (currentTheme === 'dark') {
+        console.log(meta.getAttribute("content"));
+        meta.setAttribute("content", "#000000");
         return (
             <div className={styles.toggle} onClick={() => setTheme('light')}>
                 <UilMoon />
@@ -23,6 +25,8 @@ function Toggle() {
             </div>
         )
     } else {
+        console.log(meta.getAttribute("content"));
+        meta.setAttribute("content", "#FFFFFF");
         return (
         <div className={styles.toggle} onClick={() => setTheme('dark')}>
             <UilMoon />
