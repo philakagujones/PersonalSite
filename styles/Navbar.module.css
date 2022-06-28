@@ -31,7 +31,7 @@
     gap: 2rem;
 }
 
-/*.navlist>ul:hover {
+/*.navlist>ul:hover { 
     cursor: pointer;
     color: aliceblue;
 }*/
@@ -51,7 +51,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--orange);
+    background-color: #311465;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }

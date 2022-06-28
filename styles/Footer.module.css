@@ -1,6 +1,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5rem;
 }
 
 .icons {
@@ -8,6 +9,30 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.github:hover {
+    color: #311465;
+    transition: all .2s ease-in-out;
+    transform: translateY(-10px);
+}
+
+.linkedin:hover {
+    color: #311465;
+    transition: all .2s ease-in-out;
+    transform: translateY(-10px);
+}
+
+.facebook:hover {
+    color: #311465;
+    transition: all .2s ease-in-out;
+    transform: translateY(-10px);
+}
+
+.twitter:hover {
+    color: #311465;
+    transition: all .2s ease-in-out;
+    transform: translateY(-10px);
 }
 
 .copy {

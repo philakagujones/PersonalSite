@@ -13,28 +13,28 @@ function Footer() {
             <a  href={'https://github.com/philakagujones'} 
                 target={'_blank'}
                 rel={'noopener noreferrer'}>
-                    <div className='github'>
+                    <div className={styles.github}>
                     <UilGithubAlt size='1rem'/> 
                     </div>
             </a>
             <a  href={'https://www.linkedin.com/in/phil-akagu-jones-090861187/'} 
                 target={'_blank'}
                 rel={'noopener noreferrer'}>
-                    <div className='linkedin'>
+                    <div className={styles.linkedin}>
                     <UilLinkedinAlt size='1rem'/> 
                     </div>
             </a>
             <a  href={'https://www.facebook.com/profile.php?id=100007860738511'} 
                 target={'_blank'}
                 rel={'noopener noreferrer'}>
-                    <div className='facebook'>
+                    <div className={styles.facebook}>
                     <UilFacebookF size='1rem'/> 
                     </div>
             </a>
-            <a  href={'https://twitter.com/philbburner'} 
+            <a  href={'https://twitter.com/philakagujones'} 
                 target={'_blank'}
                 rel={'noopener noreferrer'}>
-                    <div className='twitter'>
+                    <div className={styles.twitter}>
                     <UilTwitter size='1rem'/> 
                     </div>
             </a>
