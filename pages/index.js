@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from 'next/head' 
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Footer from './comps/footer'
@@ -12,8 +12,6 @@ export default function Home() {
         <meta charSet="utf-8"/>
         <title>Phil Akagu-Jones</title>
         <meta name="description" content="Phil Akagu-Jones is a software engineer who specializes in building and designing phenomenal digital applications" />
-        <meta name="next-head-count" content="4"/>
-        <meta name="theme-color" content="currentColor" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
