@@ -22,6 +22,15 @@ export default function Home() {
         <div className={styles.message}>
           <p>Hello my name is Phil. I am currently in my second year @ SFU pursuing a degree in computer science.</p>
         </div>
+
+        <div className={styles.projects}>
+          <h1>Work / Projects</h1>
+        </div>
+
+        <div className={styles.hobbies}>
+          <h1>Pastimes</h1>
+        </div>
+
       </main>
 
       <Footer />

@@ -3,21 +3,26 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+  display: block;
   justify-content: center;
   align-items: center;
 }
 
 .message {
   display: flex;
-  height: 77vh;
   margin-top: 10rem;
   justify-content: center;
   text-align: center;
+}
+
+.projects {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.hobbies {
+  text-align: center;
+  margin-top: 10rem;
 }
 
 @media screen and (max-width: 480px) {
