@@ -1,0 +1,46 @@
+.container {
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    min-height: 300px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;    
+    transition: all 0.2s;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    gap: 20px;
+}
+
+.container:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+.title {
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.words {
+    text-align: center;
+    font-size: 13px;
+    grid-row: 2/5;
+    margin: 0.5rem;
+}
+
+.bottom {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: -4rem;
+}
+
+@media screen and (max-width: 943px) {
+    .container {
+      width: 300px;
+    }
+  }

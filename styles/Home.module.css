@@ -10,20 +10,33 @@
 
 .message {
   display: flex;
-  margin-top: 10rem;
+  margin-top: 8rem;
   justify-content: center;
   text-align: center;
+  line-height: 3rem;
+}
+
+.work {
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 .projects {
-  text-align: center;
-  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
 }
 
-.hobbies {
-  text-align: center;
-  margin-top: 10rem;
+@media (max-width: 1600px) {
+  .projects {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 480px) {
+  .message {
+    margin-top: 4rem;
+    line-height: 1.8rem;
+  }
 }
