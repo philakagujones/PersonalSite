@@ -25,6 +25,12 @@ a {
   font-size: 20px;
 }
 
+@media screen and (max-width: 480px) {
+  * {
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
+
 @font-face {
   font-family: 'a769regular';
   src: url('almarena-webfont.woff2') format('woff2'),

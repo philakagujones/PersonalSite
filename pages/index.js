@@ -24,7 +24,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.message}>
-          <p>Hello my name is Phil. I am currently in my second year at Simon Fraser University pursuing a degree in computer science. I was introduced to web development in 2018 and in high school I cofounded a creative agency which specializes in the creation of websites. As of late, I've been given the privelege of working at an indie game studio so these days I spend most of my time playing around in Unity and with C#. I spend most of my free time making designs or creating small automation scripts to help simplify life. <br /> 🤎</p>
+          <p>
+            Hello my name is Phil. I am currently in my second year at Simon Fraser University pursuing a degree in computer science. 
+            I was introduced to web development in 2018 and in high school I cofounded a creative agency, <a href='www.studiopluto.co' className='text-stone-500'>Studio Pluto</a>, which specializes in the creation of websites. 
+            As of late, I've been given the privelege of working at an indie game studio so these days I spend most of my time playing around in Unity and with C#. 
+            In my free time, I work on <a href='www.drabble.app' className='text-stone-500'>Drabble</a>, make designs or create small automation scripts to help simplify life. <br /> 🤎
+          </p>
         </div>
 
         <h1>WORK</h1>
