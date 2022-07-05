@@ -1,1 +1,3 @@
-## My personal portfolio site built on Next.js!
+personal website
+
+built with next.js
