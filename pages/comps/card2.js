@@ -9,7 +9,7 @@ function Card2() {
             </div>
 
             <div className={styles.words}>
-                Don't worry I will update this soon. <br/> 😌
+                Coming soon. <br/> 😌
             </div>
 
             <div className={styles.bottom}>

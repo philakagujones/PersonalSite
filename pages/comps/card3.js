@@ -5,11 +5,11 @@ function Card3() {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
-                WEATHER APP
+                WEATHER WATCH
             </div>
 
             <div className={styles.words}>
-                Don't worry I will update this soon. <br/> 😌
+            iOS and Android installable weather PWA built with Next.js and the OpenWeather API
             </div>
 
             <div className={styles.bottom}>

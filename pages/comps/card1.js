@@ -9,7 +9,7 @@ function Card1() {
             </div>
 
             <div className={styles.words}>
-                Don't worry I will update this soon. <br/> 😌
+                Mobile app designed to help students find affordable housing (frontend)
             </div>
 
             <div className={styles.bottom}>
