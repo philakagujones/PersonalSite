@@ -1,4 +1,5 @@
-import { UilGithubAlt } from '@iconscout/react-unicons'
+import { UilGithubAlt, UilWindow } from '@iconscout/react-unicons'
+import Link from 'next/link';
 import styles from '../../styles/Cards.module.css'
 
 function Card3() {
@@ -13,7 +14,12 @@ function Card3() {
             </div>
 
             <div className={styles.bottom}>
-                <UilGithubAlt />
+                <a href={'https://github.com/philakagujones/WeatherWatch'} target={'_blank'} rel={'noopener noreferrer'}>
+                    <UilGithubAlt className={styles.github} />
+                </a>
+                <a href={'https://weatherwatch-kohl.vercel.app/'} target={'_blank'} rel={'noopener noreferrer'}>
+                    <UilWindow className={styles.window} />
+                </a>
             </div>
         </div>
     )

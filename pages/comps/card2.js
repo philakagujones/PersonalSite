@@ -13,7 +13,7 @@ function Card2() {
             </div>
 
             <div className={styles.bottom}>
-                <UilGithubAlt />
+                <UilGithubAlt className={styles.github} />
             </div>
         </div>
     )

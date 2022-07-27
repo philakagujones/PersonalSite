@@ -13,7 +13,9 @@ function Card1() {
             </div>
 
             <div className={styles.bottom}>
-                <UilGithubAlt />
+                <a href={'https://github.com/philakagujones/UniversityApp'} target={'_blank'} rel={'noopener noreferrer'}>
+                    <UilGithubAlt className={styles.github} />
+                </a>
             </div>
         </div>
     )
