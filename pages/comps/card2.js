@@ -9,6 +9,7 @@ function Card2() {
             </div>
 
             <div className={styles.words}>
+                Cross platform mobile app to learn all about your favourite films. Built with React & TMDB API. <br />
                 Coming soon. <br/> 😌
             </div>
 

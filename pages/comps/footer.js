@@ -40,7 +40,7 @@ function Footer() {
             </a>
         </div>
         <div className={styles.copy}>
-            © Phil Akagu-Jones 2022
+            © Phil Akagu-Jones 2023
         </div>
     </div>
   )
