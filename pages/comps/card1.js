@@ -9,7 +9,7 @@ function Card1() {
             </div>
 
             <div className={styles.words}>
-                Mobile app designed to help students find affordable housing (Frontend). Built with Flutter & Dart.
+                Mobile app designed to help students find affordable housing. Built with Flutter & Dart.
             </div>
 
             <div className={styles.bottom}>

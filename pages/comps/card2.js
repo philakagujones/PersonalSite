@@ -1,20 +1,24 @@
-import { UilGithubAlt } from '@iconscout/react-unicons'
+import { UilGithubAlt, UilWindow } from '@iconscout/react-unicons'
 import styles from '../../styles/Cards.module.css'
 
 function Card2() {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
-                MOVIE MASTER
+                EatTrainBalance
             </div>
 
             <div className={styles.words}>
-                Cross platform mobile app to learn all about your favourite films. Built with React & TMDB API. <br />
-                Coming soon. <br/> 😌
+                Fitness tracking web application with the capability to track food, workouts and create a meal plan. Built with Spring, Java & SQL. <br />
             </div>
 
             <div className={styles.bottom}>
-                <UilGithubAlt className={styles.github} />
+                <a href={'https://github.com/ThePixelator0/project-276'} target={'_blank'} rel={'noopener noreferrer'}>
+                    <UilGithubAlt className={styles.github} />
+                </a>
+                <a href={'https://cmpt276-project.onrender.com/'} target={'_blank'} rel={'noopener noreferrer'}>
+                    <UilWindow className={styles.window} />
+                </a>
             </div>
         </div>
     )

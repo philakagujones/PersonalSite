@@ -18,7 +18,7 @@ function Tabs() {
           Worked to assist in the creation of their new up-and-coming student led indie game studio. 
           Developed and tested cross-platform 2D games in order to lead participants in lessons surrounding Unity and C#. Collaborated with various teams to create well designed levels for a large-scale game.
           Attended several exclusive workshops held by Electronic Arts in order to learn industry standard game development practices. <br />
-          <br /> <em>Web Developer</em> <br />
+          <br /> <em>Front End Developer</em> <br />
           Manages website.
         </Text>
       </Collapse>
@@ -26,7 +26,7 @@ function Tabs() {
         title={<Text css={{
             color: "$violet400",
         }}>Solid State</Text>} 
-        subtitle="Web Development | 2021"
+        subtitle="Full Stack Web Development | 2021"
         >
         <Text
                 css={{
