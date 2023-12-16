@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
+      {/* <Navbar /> */}
 
       <main className={styles.main}>
         <div className={styles.message}>
@@ -62,7 +62,7 @@ export default function Home() {
 
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
 
     </div>
   )
