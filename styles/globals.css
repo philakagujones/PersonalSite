@@ -21,7 +21,8 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: 'a769regular';
+  /* font-family: 'a769regular'; */
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
 }
 
