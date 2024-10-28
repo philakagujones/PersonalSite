@@ -5,15 +5,15 @@ function Card1() {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
-                HOUSING APP
+                bet!
             </div>
 
             <div className={styles.words}>
-                Mobile app designed to help students find affordable housing. Built with Flutter & Dart.
+                Fun, peer-to-peer platform that lets you place bets with your friends on anything. Coming Soon.
             </div>
 
             <div className={styles.bottom}>
-                <a href={'https://github.com/philakagujones/UniversityApp'} target={'_blank'} rel={'noopener noreferrer'}>
+                <a href={'https://www.bypbj.co/'} target={'_blank'} rel={'noopener noreferrer'}>
                     <UilGithubAlt className={styles.github} />
                 </a>
             </div>

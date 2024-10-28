@@ -25,9 +25,9 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.message}>
           <p>
-            currently in my undergrad at SFU where i am pursuing a degree in computer science. 
-            was introduced to web development in high school and cofounded a creative agency, <a href={'https://www.studiopluto.co'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>Studio Pluto</a>. 
-            as of late, i've been spending most of my time happily working on <a href={'https://www.latterhouse.ca'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>Latter House</a> and <a href={'https://www.bypbj.co'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>pbj</a>. <br /> <a href={'https://www.buymeacoffee.com/philjones'} target={'_blank'} rel={'noopener noreferrer'}>💜</a>
+            currently in my undergrad pursuing a degree in computer science. 
+           cofounded a <a href={'https://www.studiopluto.co'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>creative agency</a> in high school
+            and got paid to make websites. stopped making websites and decided to act on my passions and now i'm working on scaling both my <a href={'https://www.latterhouse.ca'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>jewelry brand</a> and my <a href={'https://www.bypbj.co'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>namesake brand</a>. i'm also working on several app ideas with hopes of launching them early 2025. <br /> <a href={'https://www.buymeacoffee.com/philjones'} target={'_blank'} rel={'noopener noreferrer'}>💜</a>
           </p>
           {/* <p className={styles.update}>updating</p> */}
         </div>
@@ -39,15 +39,15 @@ export default function Home() {
 
         <h1>PROJECTS</h1>
         <div className={styles.projects}>
-          <p>will put them here soon trust</p>
-          {/* <Card2 />
+          {/* <p>will put them here soon trust</p> */}
+          <Card2 />
           <Card3 />
-          <Card1 /> */}
+          <Card1 />
         </div>
 
         
           <div className='flex mt-20 justify-center'>
-            <a href='mailto:philakagujones@gmail.com'>
+            <a href='mailto:phil@latterhouse.ca'>
               <Button
                 auto
                 rounded

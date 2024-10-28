@@ -6,18 +6,18 @@ function Card3() {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
-                WEATHER WATCH
+                leftovers
             </div>
 
             <div className={styles.words}>
-            iOS and Android installable weather PWA built with Next.js and the OpenWeather API
+            App that helps you discover recipes based on ingredients you already have. Built with Python, NextJS & TypeScript.
             </div>
 
             <div className={styles.bottom}>
-                <a href={'https://github.com/philakagujones/WeatherWatch'} target={'_blank'} rel={'noopener noreferrer'}>
+                <a href={'https://www.bypbj.co/'} target={'_blank'} rel={'noopener noreferrer'}>
                     <UilGithubAlt className={styles.github} />
                 </a>
-                <a href={'https://weatherwatch-kohl.vercel.app/'} target={'_blank'} rel={'noopener noreferrer'}>
+                <a href={'https://www.bypbj.co/'} target={'_blank'} rel={'noopener noreferrer'}>
                     <UilWindow className={styles.window} />
                 </a>
             </div>

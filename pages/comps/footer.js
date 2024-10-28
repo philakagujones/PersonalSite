@@ -24,13 +24,13 @@ function Footer() {
                     <UilLinkedinAlt size='1rem'/> 
                     </div>
             </a>
-            <a  href={'https://www.facebook.com/profile.php?id=100007860738511'} 
+            {/* <a  href={'https://www.facebook.com/profile.php?id=100007860738511'} 
                 target={'_blank'}
                 rel={'noopener noreferrer'}>
                     <div className={styles.facebook}>
                     <UilFacebookF size='1rem'/> 
                     </div>
-            </a>
+            </a> */}
             <a  href={'https://twitter.com/philakagujones'} 
                 target={'_blank'}
                 rel={'noopener noreferrer'}>
