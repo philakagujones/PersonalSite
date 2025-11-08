@@ -9,7 +9,7 @@ function Navbar() {
           <div className={styles["navname"] + styles["hoveranimation"]}>phil jones</div>
           <Toggle />
       </div>
-      <div className={styles.navright}> 
+      <div className={styles.navright}>
           <div className={styles.navlist}>
               <ul>
                 <a href={'mailto:philakagujones@gmail.com'}>
