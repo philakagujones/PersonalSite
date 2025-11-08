@@ -40,7 +40,7 @@ function Footer() {
             </a>
         </div>
         <div className={styles.copy}>
-            © 2024
+            © 2026
         </div>
     </div>
   )
