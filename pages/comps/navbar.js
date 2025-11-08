@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className={styles.navwrapper}>
       <div className={styles.navleft}>
-          <div className={styles["navname"] + styles["hoveranimation"]}>phil akagu-jones</div>
+          <div className={styles["navname"] + styles["hoveranimation"]}>phil jones</div>
           <Toggle />
       </div>
       <div className={styles.navright}>
