@@ -1,8 +1,12 @@
 .container {
   padding: 0 2rem;
+  min-height: 100vh;    
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
+  flex: 1;              
   display: block;
   justify-content: center;
   align-items: center;
@@ -33,15 +37,45 @@
   margin-bottom: 13rem;
 }
 
+/* ── Large desktop — keep cards spread apart ──────────── */
 @media (max-width: 1600px) {
   .projects {
-    justify-content: center;
+    justify-content: center; 
   }
 }
 
+/* ── Tablet landscape / small desktop (943px) ─────────── */
+@media screen and (max-width: 943px) {
+  .message {
+    line-height: 2.4rem; 
+  }
+}
+
+/* ── Tablet portrait (768px) ──────────────────────────── */
+@media screen and (max-width: 768px) {
+  .message {
+    margin-top: 5rem;
+    line-height: 2.2rem;
+  }
+}
+
+/* ── Large phone / small tablet (640px) ───────────────── */
+@media screen and (max-width: 640px) {
+  .projects {
+    flex-direction: column;   
+    align-items: center;      
+  }
+}
+
+/* ── Mobile (480px) ───────────────────────────────────── */
 @media screen and (max-width: 480px) {
   .message {
     margin-top: 4rem;
-    line-height: 1.8rem;
+    line-height: 1.8rem; 
+  }
+
+  .projects {
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -39,7 +39,6 @@ export default function Home() {
 
         {/* <h1>PROJECTS</h1>
         <div className={styles.projects}>
-          <p>will put them here soon trust</p>
           <Card2 />
           <Card3 />
           <Card1 />
