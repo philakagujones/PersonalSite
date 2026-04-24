@@ -37,12 +37,12 @@ export default function Home() {
           <Tabs />
         </div> */}
 
-        {/* <h1>PROJECTS</h1>
+        <h1>PROJECTS</h1>
         <div className={styles.projects}>
           <Card2 />
           <Card3 />
           <Card1 />
-        </div> */}
+        </div>
 
         
           <div className='flex mt-20 justify-center'>

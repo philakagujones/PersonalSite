@@ -4,21 +4,28 @@ import styles from '../../styles/Cards.module.css'
 function Card2() {
     return (
         <div className={styles.container}>
-            <div className={styles.title}>
-                wealth
+            <div className={styles.header}>
+                <span className={styles.title}>Wealth</span>
+                <span className={styles.badge}>Coming soon</span>
             </div>
 
-            <div className={styles.words}>
-                Finance app designed to help people track and manage their finances seamlessly across devices. Built with Java, TypeScript, SQL & React Native. <br />
-            </div>
+            <p className={styles.body}>
+                Finance app designed to help people track and manage their finances seamlessly across devices.
+            </p>
 
-            <div className={styles.bottom}>
-                <a href={'https://www.bypbj.co/'} target={'_blank'} rel={'noopener noreferrer'}>
-                    <UilGithubAlt className={styles.github} />
-                </a>
-                <a href={'https://www.bypbj.co/'} target={'_blank'} rel={'noopener noreferrer'}>
-                    <UilWindow className={styles.window} />
-                </a>
+            <div>
+                <div className={styles.divider}></div>
+                <div className={styles.footer}>
+                    <div className={styles.icons}>
+                        <a href={'https://www.bypbj.co/'} target={'_blank'} rel={'noopener noreferrer'} className={styles.iconBtn}>
+                            <UilGithubAlt />
+                        </a>
+                        <a href={'https://www.bypbj.co/'} target={'_blank'} rel={'noopener noreferrer'} className={styles.iconBtn}>
+                            <UilWindow />
+                        </a>
+                    </div>
+                    <span className={styles.stackLabel}>Swift</span>
+                </div>
             </div>
         </div>
     )
