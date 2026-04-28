@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Card1 from './comps/card1'
 import Card2 from './comps/card2'
 import Card3 from './comps/card3'
+import Card4 from './comps/card4'
 import Footer from './comps/footer'
 import Navbar from './comps/navbar'
 import Tabs from './comps/tabs'
@@ -39,9 +40,11 @@ export default function Home() {
 
         <h1>PROJECTS</h1>
         <div className={styles.projects}>
+          <Card4 />
           <Card2 />
           <Card3 />
           <Card1 />
+          
         </div>
 
         
