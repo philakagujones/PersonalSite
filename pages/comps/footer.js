@@ -31,7 +31,7 @@ function Footer() {
                     <UilFacebookF size='1rem'/> 
                     </div>
             </a> */}
-            <a  href={'https://twitter.com/philakagujones'} 
+            <a  href={'https://twitter.com/cashpbj'} 
                 target={'_blank'}
                 rel={'noopener noreferrer'}>
                     <div className={styles.twitter}>
