@@ -20,7 +20,7 @@ function Card5() {
                         <a href={'https://github.com/philakagujones/habits'} target={'_blank'} rel={'noopener noreferrer'} className={styles.iconBtn}>
                             <UilGithubAlt />
                         </a>
-                        <a href={'https://habits.bypbj.co'} target={'_blank'} rel={'noopener noreferrer'} className={styles.iconBtn}>
+                        <a href={'https://www.bypbj.co/habits'} target={'_blank'} rel={'noopener noreferrer'} className={styles.iconBtn}>
                             <UilWindow />
                         </a>
                     </div>
