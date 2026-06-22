@@ -5,7 +5,7 @@ function Card2() {
     return (
         <div className={styles.container}>
             <div className={styles.header}>
-                <span className={styles.title}>Wealth</span>
+                <span className={styles.title}>Slate</span>
                 <span className={styles.badge}>Coming soon</span>
             </div>
 

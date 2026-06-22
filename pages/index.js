@@ -9,6 +9,7 @@ import Footer from './comps/footer'
 import Navbar from './comps/navbar'
 import Tabs from './comps/tabs'
 import { Button } from "@nextui-org/react";
+import Card6 from './comps/card6';
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
         <div className={styles.projects}>
           <Card4 />
           <Card5 />
+          <Card6 />
           <Card2 />
           <Card3 />
           <Card1 />
