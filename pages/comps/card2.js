@@ -5,12 +5,12 @@ function Card2() {
     return (
         <div className={styles.container}>
             <div className={styles.header}>
-                <span className={styles.title}>Slate</span>
+                <span className={styles.title}>Stater</span>
                 <span className={styles.badge}>Coming soon</span>
             </div>
 
             <p className={styles.body}>
-                Finance app designed to help people track and manage their finances seamlessly across devices.
+                Privacy focused personal finance app for Canadians.
             </p>
 
             <div>

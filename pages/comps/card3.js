@@ -5,12 +5,12 @@ function Card3() {
     return (
         <div className={styles.container}>
             <div className={styles.header}>
-                <span className={styles.title}>Apps+</span>
+                <span className={styles.title}>Sortir</span>
                 <span className={styles.badge}>Coming soon</span>
             </div>
 
             <p className={styles.body}>
-                A better version of 'Apps' for MacOS.
+                Let's go out!
             </p>
 
             <div>

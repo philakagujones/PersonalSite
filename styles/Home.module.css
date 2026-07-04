@@ -79,3 +79,37 @@
     align-items: center;
   }
 }
+
+/* ── "Let's Work" button — flowing gradient on hover ──── */
+.workBtn {
+  background: linear-gradient(
+    112deg,
+    #06B7DB 0%,
+    #FF4ECD 25%,
+    #0072F5 50%,
+    #FF4ECD 75%,
+    #06B7DB 100%
+  ) !important;
+  background-size: 200% auto !important;
+  background-position: 0% center !important;
+  transition: box-shadow 0.4s ease, background-position 0.4s ease !important;
+}
+
+.workBtn:hover {
+  animation: workBtnFlow 3s linear infinite;
+  box-shadow: 0 6px 22px rgba(255, 78, 205, 0.35),
+              0 6px 22px rgba(6, 183, 219, 0.25) !important;
+}
+
+@keyframes workBtnFlow {
+  to {
+    background-position: -200% center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .workBtn:hover {
+    animation: none;
+    background-position: -100% center !important;
+  }
+}

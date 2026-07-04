@@ -5,12 +5,12 @@ function Card1() {
     return (
         <div className={styles.container}>
             <div className={styles.header}>
-                <span className={styles.title}>Bet!</span>
+                <span className={styles.title}>sWIPE</span>
                 <span className={styles.badge}>Coming soon</span>
             </div>
 
             <p className={styles.body}>
-                Fun, peer-to-peer platform that lets you place bets with your friends on anything.
+                Swipe your phone clean.
             </p>
 
             <div>

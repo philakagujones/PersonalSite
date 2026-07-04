@@ -58,7 +58,7 @@ export default function Home() {
                 auto
                 rounded
                 color="gradient"
-                className='hover:translate-y-2'
+                className={styles.workBtn}
               >
                 Let's Work
               </Button>
