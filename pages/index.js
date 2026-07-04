@@ -30,7 +30,7 @@ export default function Home() {
           <p>
             currently in my undergrad pursuing a degree in computer science. 
            cofounded a <a href={'https://www.studiopluto.co'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>creative agency</a> in high school
-            and got paid to make websites. stopped making websites and decided to act on my other passions and now i'm working on scaling both my <a href={'https://www.latterhouse.ca'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>jewelry brand</a> and bringing the rest of my <a href={'https://www.bypbj.co'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>miscellaneous ideas</a> to life. i'm also working on several app ideas with hopes of launching them this decade. <br /> <a href={'https://www.buymeacoffee.com/philjones'} target={'_blank'} rel={'noopener noreferrer'}>💜</a>
+            and got paid to make websites. decided to act on my other passions and now i'm working on scaling my <a href={'https://www.latterhouse.ca'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>brand</a> and bringing the rest of my <a href={'https://www.bypbj.co'} target={'_blank'} rel={'noopener noreferrer'} className='text-violet-600 hover:text-violet-700'>miscellaneous ideas</a> to life. <br /> <a href={'https://www.buymeacoffee.com/philjones'} target={'_blank'} rel={'noopener noreferrer'}>💜</a>
           </p>
           {/* <p className={styles.update}>updating</p> */}
         </div>
